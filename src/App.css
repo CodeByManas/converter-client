@@ -1,0 +1,102 @@
+
+
+.App {
+  text-align: center;
+  background-image: url('../public/21516857_06.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  /* background-color: #c8d6e5; */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: #ffffff;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.App-header .convertBtn{
+    margin-top: 15px;
+  color: #fff;
+}
+.crossIcon{
+  color: #ffffff;
+  margin-left: 10px;
+  position: absolute;
+  margin-top: 10px;
+  cursor: pointer;
+  
+}
+.App-header .OperationBox{
+  background: linear-gradient(135deg, rgba(0,0,0,0.1), rgba(0,0,0,0.3), rgba(0,0,0,0.1));
+  border: 1px solid #ffffff;
+  min-width: 370px;
+  min-height: 210px;
+  padding: 20px;
+  border-radius: 6px;
+  box-shadow: -2px -2px 5px rgb(122, 122, 122);
+}
+.App-header .optionBtn{
+  margin-bottom: 13px;
+}
+p{
+  font-size: 22px;
+  color: #ffffff;
+}
+
+.App-header .folderIcon{
+  border: 1px solid;
+  width: 40px;
+  height: 40px;
+  padding: 6px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1976d2;
+  color: #ffffff;
+
+}
+
+.App-header .folderIcon:hover{
+  background-color: transparent;
+  color: #ffffff;
+}
+
+span{
+  color: #fdfdfd;
+  font-size: 22px;
+  text-transform: capitalize;
+}
+
+
+
+
