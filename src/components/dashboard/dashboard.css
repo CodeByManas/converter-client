@@ -1,0 +1,30 @@
+ul li {
+    margin: 10px;
+}
+.navbar-nav{
+    margin-left: 20px;
+}
+.Menu{
+    text-decoration: none;
+    color: #ffffff;
+    cursor: pointer;
+}
+.Menu:hover{
+    color: #ffffff;
+}
+.navbar{
+    background: #0abde3;
+    color: #ffffff;
+    position: fixed;
+    top: 0;
+}
+.logo{
+    font-size: 20px;
+    font-weight: bold;
+    color: #ffffff;
+    text-decoration: none;
+    cursor: pointer;
+}
+.logo:hover{
+    color: #ffffff;
+}
